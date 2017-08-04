@@ -1,0 +1,192 @@
+/* Alun Ward, for Eye Gallery */
+/* alun@eyedivision.co.uk */
+
+/* ed specific */
+#footer {padding:1em;}
+.images { margin:0 auto;  text-align:center; padding-top:4em; }
+.images img { margin:0 0.2em;}
+#photo { padding:1em 0;}
+#header { margin-top:0.6em; }
+#page img { }
+.alignRight { float:right; margin:0.5em; }
+.right { text-align:right; }
+a {
+	color:white;
+	text-decoration:none;
+	color:#DD432E;
+}
+a:visited {
+	color:#DD432E;
+	text-decoration:none;
+}
+a:hover {
+	color:#333;
+	text-decoration:underline;
+}
+/* global revisions */
+blockquote {color: #333;	font-weight:normal; font-style:normal; font-size: 1.1em; margin:0em; }
+address { font-style:normal; font-size:0.8em; text-align:center; }
+
+.pagination { text-align:left; }
+/* Eye Div */
+.highlightBox {
+	border:1px solid #333;
+	padding:0.5em;
+}
+body {
+	font-size: 1em; 
+	color:#333; 
+	line-height: 1.6em; 
+	font-family: Century Gothic, Verdana, helvetica, arial, sans-serif;
+	background-color:#fff; 
+}
+b, strong { color:inherit; }
+.container { border:none; margin-top:1em; margin-bottom:2em; }
+/* forms */
+fieldset { border:none; }
+/* customised menus */
+
+.top { border-bottom:1px #ececec solid; padding-top:5em; }
+header { margin-right:0px; text-align:center;}
+/* top navigation */
+nav { 
+	background-color:inherit;
+	border-top:none;
+	border-bottom:none;
+	padding:1em 0;
+	text-align:center;
+}
+nav ul li {	
+	list-style: none; 
+	float:left;  
+}
+nav li a { 
+	color:#333;
+	background-color:inherit;
+	padding-left:0;
+	margin:0;
+	/*padding: 0.9em 0.6em;*/
+}
+nav a:link, nav a:visited { color:#333;  }
+nav a:hover { color:#000; background-color:inherit;}
+nav a.selected, nav a.selected:link { font-weight:bold; color:#000; background-color:inherit;}
+nav a.selected:visited { color:#333; }
+
+/*navigation*/	
+
+#primary_nav ul {
+	list-style: none;
+	background: #1c1c1c;
+	padding: 5px 0;
+}
+
+#primary_nav li a {
+	display: block;
+	padding: 0 20px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	height: 2em;
+	border-bottom: 1px solid #383838;
+}
+
+#primary_nav li:last-child a {
+	border-bottom: none;
+}
+
+#primary_nav li a:hover,
+#primary_nav li a:focus {
+	color: #1c1c1c;
+	background: #ccc;
+}
+/* header */
+h1, h2, h3 { color:#333; }
+h1 { line-height:normal; margin-bottom:0; padding-left:0;}
+h2 { font-size:1.4em; font-weight:bold; }
+/* selected categories etc */
+
+h1 a:link, h1 a:visited, h1 a:hover { color:#333; }
+
+/* crossslide */
+#slideshow {
+  width: 650px;
+  height: 450px;
+}
+.gallery p a {
+	float:left;
+	width:auto;
+	padding:0;
+}
+.gallery span {
+	line-height:normal;
+	height:auto;
+}
+.gallery a img {
+	vertical-align:auto;
+}
+.gallery a {
+	color:#000;
+}
+.gallery a:visited {
+	color:#00;
+}
+
+#thumbs {
+	text-align:center;
+	margin:0 auto;
+}
+.image-nav-left, .image-nav-right {
+	float:left;
+}
+.image-nav-left a {
+	display:block;
+	background:url('images/classic-map.png') no-repeat; 
+	height:100px;
+	text-indent:-9999px;
+	width:30px;
+}
+.image-nav-right a {
+	margin-left:40px;
+	display:block;
+	background:url('images/classic-map.png') no-repeat -300px 0; 
+	height:100px;
+	text-indent:-9999px;
+	width:30px;
+}
+
+/*media queries*/
+
+		@media only screen and (min-width: 768px) {
+			.container {
+				position:relative;
+			}
+			a.to_nav {
+				display: none;
+			}
+			#primary_nav {
+				position: absolute;
+				top: 5px;
+				right: 10px;
+				background: none;
+			}
+
+			#primary_nav li {
+				display: inline;
+			}
+
+			#primary_nav li a {
+				float: left;
+				border: none;
+				padding: 0 10px;
+				-webkit-border-radius: 2px;
+				-moz-border-radius: 2px;
+				border-radius: 2px;
+			}
+			#primary_nav li.top {
+				display: none;
+			}
+		}

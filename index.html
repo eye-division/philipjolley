@@ -1,77 +1,66 @@
----
-layout: page
-main_image_path: /assets/header4.jpg
----
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Philip Jolley</title>
+<meta name="description" content="UK based ceramicist, Philip Jolley"> 
+<meta name="keywords" content="ceramics, ceramic vessels, ceramic wall panels, ceramic jewellery, ceramic sculpture, Philip Jolley">  
+<meta name="author" content="Eye Division">
+<meta name="Copyright" content="Copyright (c) Philip Jolley">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="css/eyegallery.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+<link rel="stylesheet" href="css/theme-mini-light.css">
+	<!--[if lt IE 8]>
+<link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/css/eyegallery-ie.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="/css/anythingslider-ie.css" type="text/css" media="screen">
+<![endif]-->  
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="code/jquery.metadata.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/superfish.css" media="screen">
+<script type="text/javascript" src="code/hoverIntent.js"></script>
+<script type="text/javascript" src="code/superfish.min.js"></script>
+<link rel="stylesheet" href="css/artist.css" type="text/css" media="screen, projection">
 
-<ul class="post-list">
-  {% for post in paginator.posts %}
-  <li>
-    <h2>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-    <section class="post-excerpt" itemprop="description">
-      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-    </section>
-    <section class="post-meta">
-      <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
-      <div class="post-categories">
-      {% if post.categories.size > 0 %}in {% for cat in post.categories %}
-        {% if site.jekyll-archives %}
-        <a href="{{ site.baseurl }}/category/{{ cat }}">{{ cat | capitalize }}</a>{% if forloop.last == false %}, {% endif %}
-        {% else %}
-        <span>{{ cat | capitalize }}</span>{% if forloop.last == false %}, {% endif %}
-        {% endif %}
-      {% endfor %}{% endif %}
-      </div>
-    </section>
-  </li>
-  {% if forloop.last == false %}
-  <hr>
-  {% endif %}
-  {% endfor %}
-</ul>
+<script type="text/javascript">
 
-<nav class="pagination" role="navigation">
-  <p>
-    {% if paginator.next_page %}
-    <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">
-      <span class="fa-stack fa-lg">
-        <i class="fa fa-square fa-stack-2x"></i>
-        <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-      </span>
-    </a>
-    {% else %}
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-    </span>
-    {% endif %}
-    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-      <a class="newer-posts" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-square fa-stack-2x"></i>
-          <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-      {% else %}
-      <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-square fa-stack-2x"></i>
-          <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-      {% endif %}
-    {% else %}
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-    </span>
-    {% endif %}
-  </p>
-  <p>
-    <a href="{{ site.baseurl }}/posts">View All Posts by Category</a>
-  </p>
-</nav>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16735011-19']);
+  _gaq.push(['_trackPageview']);
 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+	<div class="container">
+    <div class="span-22 prepend-1 append-1">
+        <header>
+            <h1><a href="index.html" title="Return home" accesskey="1">Philip Jolley</a></h1>	
+        </header>
+        <nav>
+            <ul class="sf-menu">
+                <li><a href="index.html" title="Return to the home page" accesskey="1">Home</a></li> 
+                <li><a href="gallery/27.html">Wall pieces</a></li><li><a href="gallery/30.html">Table pieces</a></li><li><a href="gallery/31.html">Bowls</a></li><li><a href="gallery/32.html">Vases</a></li><li><a href="gallery/35.html">Brooches</a></li><li><a href="gallery/37.html">Splashbacks and tiles</a></li><li><a href="gallery/29.html">About</a></li><li><a href="gallery/28.html">Contact</a></li><li><a href="gallery/36.html">Shows and Galleries</a></li>            </ul>
+        </nav>
+    </div>
+    <!-- <ul id="slider1">
+    </ul>
+-->
+<div class="gallery"><p><a href="gallery/27.html" title="Wall pieces"><span><img src="img.php%3Ff(5020c8910c62d.jpg)&amp;w(200)&amp;q(100)" alt="Wall pieces"></span><br />Wall pieces</a></p> <p><a href="gallery/30.html" title="Table pieces"><span><img src="img.php%3Ff(502a1ed13978f.jpg)&amp;w(200)&amp;q(100)" alt="Table pieces"></span><br />Table pieces</a></p> <p><a href="gallery/31.html" title="Bowls"><span><img src="img.php%3Ff(57518eeea024c.jpg)&amp;w(200)&amp;q(100)" alt="Bowls"></span><br />Bowls</a></p> <p><a href="gallery/32.html" title="Vases"><span><img src="img.php%3Ff(575193b7c7335.jpg)&amp;w(200)&amp;q(100)" alt="Vases"></span><br />Vases</a></p> <p><a href="gallery/35.html" title="Brooches"><span><img src="img.php%3Ff(50cf5a1e96fc3.jpg)&amp;w(250)&amp;q(100)" alt="Brooches"></span><br />Brooches</a></p> <p><a href="gallery/37.html" title="Splashbacks and tiles"><span><img src="img.php%3Ff(55b90c721e914.jpg)&amp;w(200)&amp;q(100)" alt="Splashbacks and tiles"></span><br />Splashbacks and tiles</a></p> </div>
+	<footer>&copy; All work is copyright the artist, no reproduction without permission.<br /><a href="http://www.eyedivision.com" title="An Eye Gallery system site" target="_blank"><img src="images/eyegallery.gif" alt="an Eye Gallery site" width="30" height="31" /></a><br />
+	An <a href="http://www.eyedivision.com" title="Site by Eye Division" target="_blank">Eye Gallery</a> site
+    </footer>
+		
+	</div>
+</body>
+</html>
+	
