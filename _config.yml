@@ -38,7 +38,7 @@ highlightjs_theme: "monokai-sublime"
 themecolor: #ffffff
 tilecolor: #ffffff
 
-show_social_top: true
+show_social_top: false
 
 # Image CDN
 imagecdn:
