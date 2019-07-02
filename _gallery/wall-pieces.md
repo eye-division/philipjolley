@@ -1,18 +1,23 @@
 ---
 title: "Wall pieces"
-display_title: false
+display_title: true
 permalink: /wall-pieces/
 frontpage: true
 frontpagetitle: "Wall pieces"
 homepage_description_markdown: >-
   
-gallery_date: 2018-05-01 00:00:00
+gallery_date: 2019-05-01 00:00:00
 display_image: false
-main_image_path: "/assets/images/502a1dfe8de64.jpg"
-main_image_caption: ""
+main_image_path: "/assets/images/5020c8910c62d.jpg"
+main_image_caption: "Wall piece"
 thumb_crop: true
-display_thumb_title: true
+display_thumb_title: false
 images:
+  - image_path: "/assets/images/5020c8910c62d.jpg"
+    image_title: "Wall piece"
+    image_description_markdown: "8cm x 8cm<br>2012<br>
+    Paper clay and porcelain<br>
+    NFS<br>Inlaid chequer board pattern, coloured clay, oxides stains and glaze"  
   - image_path: "/assets/images/502a1dfe8de64.jpg"
     image_title: "'Arches' Wall Panel"
     image_description_markdown: "51 cm long<br />paper clay and porcelain<br />sold<br />Printed and inlaid decoration, coloured with oxides, stains and glaze"

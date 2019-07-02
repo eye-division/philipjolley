@@ -1,17 +1,17 @@
 ---
 title: "Vases"
-display_title: false
+display_title: true
 permalink: /vases/
 frontpage: true
 frontpagetitle: "Vases"
 homepage_description_markdown: >-
   
-gallery_date: 2018-05-01 00:00:00
+gallery_date: 2018-03-01 00:00:00
 display_image: false
 main_image_path: "/assets/images/575193b7c7335.jpg"
 main_image_caption: ""
 thumb_crop: true
-display_thumb_title: true
+display_thumb_title: false
 images:
   - image_path: "/assets/images/575193b7c7335.jpg"
     image_title: "Untitled"

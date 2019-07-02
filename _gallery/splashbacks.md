@@ -1,17 +1,17 @@
 ---
 title: "Splashbacks and tiles"
-display_title: false
+display_title: true
 permalink: /splashbacks-tiles/
 frontpage: true
 frontpagetitle: "Splashbacks and tiles"
 homepage_description_markdown: >-
   
-gallery_date: 2018-05-01 00:00:00
+gallery_date: 2018-01-01 00:00:00
 display_image: false
-main_image_path: "/assets/images/55b90c721e914.jpg"
+main_image_path: "/assets/images/57518c5e0e36f.jpg"
 main_image_caption: ""
 thumb_crop: true
-display_thumb_title: true
+display_thumb_title: false
 images:
   - image_path: "/assets/images/55b90c721e914.jpg"
     image_title: "Untitled"

@@ -1,6 +1,6 @@
 ---
 title: "Table pieces"
-display_title: false
+display_title: true
 permalink: /table-pieces/
 frontpage: true
 frontpagetitle: "Table pieces"
@@ -11,7 +11,7 @@ display_image: false
 main_image_path: "/assets/images/502a1ed13978f.jpg"
 main_image_caption: ""
 thumb_crop: true
-display_thumb_title: true
+display_thumb_title: false
 images:
   - image_path: "/assets/images/502a1ed13978f.jpg"
     image_title: "106"

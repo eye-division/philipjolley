@@ -10,18 +10,21 @@ plugins:
 
 # Site settings
 title: Philip Jolley
-subtitle: Philip Jolley Eye Gallery built on Bourbon and Neat
+subtitle: UK ceramicist
 name: Philip Jolley
-description: A base theme built on Bourbon and Neat
+description: Website for the Oxford based ceramicist Philip Jolley, showcasing wall pieces, bowls, vases, brooches and tiles.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: ""
+
+
 # the base hostname & protocol for your site
 url: "https://www.philipjolleyceramics.co.uk/"
 logo: "/siteicon.png"
+locale: "en_GB" # for jekyll-seo-tag
 asset_url: "/assets/"
-email: a.ward@eyedivision.com
+email: jolleyp@stedwardsoxford.org
 
 # Build settings
 markdown: kramdown
@@ -39,8 +42,8 @@ show_social_top: true
 
 # Image CDN
 imagecdn:
-  #staging: "http://ed-dev.imgix.net"
-  #production: "http://ed.imgix.net"
+  staging: "https://ed-philipjolley-dev.imgix.net"
+  production: "https://ed-philipjolley.imgix.net"
 
 # Collections Example
 collections:

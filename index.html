@@ -3,7 +3,7 @@ layout: home
 main_image_path:
 main_image_caption:
 show_carousel: false
-show_blog: true
+show_blog: false
 posts_number: 2
 carousel:
   - image: /assets/images/advert-customers.jpg
@@ -50,7 +50,7 @@ _comments:
   {% endif %}
 
   <div class="editable">
-    <p>This demo front page shows how you can profile individual galleries and pages to appear on the front, with a custom image, introductory title and text for each. This is the standard display with full page-width images and titles underneath, but other options are available.</p>
+    <p></p>
 
   </div>
 
@@ -112,7 +112,8 @@ _comments:
     {% endfor %}
 
       <!-- Galleries -->
-    {% for gallery in site.gallery %}
+    {% assign galleries = site.gallery | sort: 'gallery_date' | reverse %}
+    {% for gallery in galleries %}
 
       {% if gallery.frontpage %}
 

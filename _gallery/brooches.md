@@ -1,12 +1,12 @@
 ---
 title: "Brooches"
-display_title: false
+display_title: true
 permalink: /brooches/
 frontpage: true
 frontpagetitle: "Brooches"
 homepage_description_markdown: >-
   
-gallery_date: 2018-05-01 00:00:00
+gallery_date: 2018-02-01 00:00:00
 display_image: false
 main_image_path: "/assets/images/50cf5a1e96fc3.jpg"
 main_image_caption: ""

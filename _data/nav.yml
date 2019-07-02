@@ -1,8 +1,14 @@
-- title: "Posts"
-  href: "/posts/"
+- title: "Home"
+  href: "/"
 
-- title: "Gallery"
+- title: "Galleries"
   href: "/gallery/"
+
+- title: "Shows &amp; Galleries"
+  href: "/shows-galleries/"
 
 - title: "About"
   href: "/about/"
+
+- title: "Contact"
+  href: "/contact/"

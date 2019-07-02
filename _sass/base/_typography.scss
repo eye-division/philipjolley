@@ -70,9 +70,14 @@ hr {
   margin: $base-spacing 0;
 }
 
-.textright {
-    text-align: right;
+.textright,
+.text-right {
+  text-align: right;
 }
+.text-center {
+  text-align: center;
+}
+
 blockquote {
   padding: 1em 0;
   border-bottom: 1px solid $action-color;
