@@ -1,23 +1,30 @@
-# External gems
-gems:
-  - jekyll-sitemap
-
-exclude:
-  - "/vendor/"
+# External gems - updated to plugins in jekyll v3.6
+plugins:
+ # - jekyll-archives # Sorry, not GitHub pages friendly!
+ # - jekyll-assets
+ # - autoprefixer-rails
+   - jekyll-seo-tag
+   - jekyll-sitemap
+   - jekyll/tagging
+   - jekyll-tagging-related_posts
 
 # Site settings
 title: Philip Jolley
-subtitle: Philip Jolley Eye Gallery built on Bourbon and Neat
+subtitle: UK ceramicist
 name: Philip Jolley
-description: A base theme built on Bourbon and Neat
+description: Website for the Oxford based ceramicist Philip Jolley, showcasing wall pieces, bowls, vases, brooches and tiles.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: ""
+
+
 # the base hostname & protocol for your site
-url: "http://www.philipjolleyceramics.co.uk/"
+url: "https://www.philipjolleyceramics.co.uk/"
 logo: "/siteicon.png"
-email: a.ward@eyedivision.com
+locale: "en_GB" # for jekyll-seo-tag
+asset_url: "/assets/"
+email: jolleyp@stedwardsoxford.org
 
 # Build settings
 markdown: kramdown
@@ -25,31 +32,79 @@ markdown: kramdown
 # paginate_path: "/page:num/"
 # inter_post_navigation: false
 permalink: pretty
+highlightjs_theme: "monokai-sublime"
+
+# Colours for favicons etc
+themecolor: #ffffff
+tilecolor: #ffffff
+
+show_social_top: false
 
 # Image CDN
 imagecdn:
-  #staging: "http://ed-dev.imgix.net"
-  #production: "http://ed.imgix.net"
+  staging: "https://ed-philipjolley-dev.imgix.net"
+  production: "https://ed-philipjolley.imgix.net"
 
-# Collections
+# Collections Example
 collections:
-#     projects:
-#         output: true
-#         permalink: /projects/:path/
+    gallery:
+        output: true
+        permalink: /gallery/:path/
+        #_hide_content: true
 
 
 # Defaults Example
 defaults:
-#     -
-#         scope:
-#             path: ""
-#             type: "projects"
-#         values:
-#             layout: "project"
+    -
+        scope:
+            path: ""
+            type: "gallery"
+        values:
+            layout: "gallery"
 
+_options:
+  _text:            # text =
+    link: true
+    bold: true
+    italic: true
+    removeformat: true
+  _block:           # block = editable blocks within pages
+    link: true
+    bold: true
+    italic: true
+    removeformat: true
+    left: align-left
+    center: center-this-text
+    right: align-right
+    justify: full-width-text
+    undo: true
+    redo: true
+    format: p h2 h3 h4 h5 h6 div
+    numberedlist: true
+    bulletedlist: true
+    blockquote: true
+    image: true
+    styles: /css/editor.scss
+  content:
+    link: true
+    bold: true
+    italic: true
+    removeformat: true
+    left: align-left
+    center: center-this-text
+    right: align-right
+    justify: full-width-text
+    undo: true
+    redo: true
+    format: p h2 h3 h4 h5 h6 div
+    numberedlist: true
+    bulletedlist: true
+    blockquote: true
+    image: true
+    styles: /css/editor.scss
 
 # Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+ga_tracking_id: "UA-16735011-19"
 
 # Google Recaptcha for contact form
 recaptcha_site_key: 6LcjyCsUAAAAADeTkdmT5is4ayA-aCouxDuN-u4Y
