@@ -7,7 +7,7 @@ frontpagetitle: Vases
 homepage_description_markdown:
 gallery_date: 2018-03-01 00:00:00
 display_image: false
-main_image_path: /assets/images/575193b7c7335.jpg
+main_image_path:
 main_image_caption:
 thumb_crop: true
 display_thumb_title: false
@@ -73,12 +73,6 @@ images:
     image_description_markdown: £125
   - image_path: /assets/images/50cf67cfbbe11.jpg
     image_title: Untitled
-    image_description_markdown:
-  - image_path:
-    image_title:
-    image_description_markdown:
-  - image_path:
-    image_title:
     image_description_markdown:
 archive: false
 _options:
