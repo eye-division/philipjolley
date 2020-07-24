@@ -7,7 +7,9 @@ frontpagetitle: Vases
 homepage_description_markdown:
 gallery_date: 2018-03-01 00:00:00
 display_image: false
-main_image_path:
+main_image_path: >-
+  /assets/images/Phil Jolley, Ceramics,   large vase, Architectural Stamps,
+  50cm, £365.jpg
 main_image_caption:
 thumb_crop: true
 display_thumb_title: false
