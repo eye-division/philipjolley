@@ -76,6 +76,9 @@ images:
   - image_path: /assets/images/50cf67cfbbe11.jpg
     image_title: Untitled
     image_description_markdown:
+  - image_path:
+    image_title:
+    image_description_markdown:
 archive: false
 _options:
   image_path:
