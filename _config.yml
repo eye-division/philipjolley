@@ -24,7 +24,7 @@ url: "https://www.philipjolleyceramics.co.uk/"
 logo: "/siteicon.png"
 locale: "en_GB" # for jekyll-seo-tag
 asset_url: "/assets/"
-email: jolleyp@stedwardsoxford.org
+email: "philisjolley@hotmail.com"
 
 # Build settings
 markdown: kramdown
